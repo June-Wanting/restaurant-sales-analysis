@@ -494,7 +494,7 @@ The project automatically generates multiple charts.
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/restaurant-sales-analysis.git
+git clone https://github.com/June-Wanting/restaurant-sales-analysis.git
 ```
 
 ---
