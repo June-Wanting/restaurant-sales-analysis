@@ -1,4 +1,18 @@
-# Multi-City Restaurant Sales Intelligence Dashboard
+# Restaurant Sales Analysis Dashboard
+
+An end-to-end business intelligence and data analytics project built using Python, SQL, Streamlit, and Plotly.
+
+---
+
+## Live Interactive Dashboard
+
+🔗 [Open Streamlit Dashboard](https://restaurant-sales-analysis-inxgty7mphm6rklrozty93.streamlit.app/)
+
+## GitHub Repository
+
+🔗 [View Source Code](https://github.com/June-Wanting/restaurant-sales-analysis)
+
+---
 
 # Dashboard Preview
 
@@ -18,7 +32,9 @@
 
 ![Heatmap](output/dashboard_screenshot/product_city_heatmap.png)
 
-## Project Overview
+---
+
+# Project Overview
 
 This project is an end-to-end restaurant sales analytics and business intelligence project designed to simulate a real-world data analyst workflow.
 
@@ -37,9 +53,10 @@ The project combines:
 - SQL business analysis using MySQL
 - Data validation and semantic correction
 - Business insight generation
-- Visualization and dashboard preparation
+- Interactive dashboard development using Streamlit
+- Data visualization using Plotly and Matplotlib
 
-This portfolio project was built to demonstrate practical business analytics skills for Junior Data Analyst / BI Analyst roles.
+This portfolio project was built to demonstrate practical business analytics and dashboard development skills for Junior Data Analyst and BI Analyst roles.
 
 ---
 
