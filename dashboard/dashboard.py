@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+from pathlib import Path
 
 # ============================================
 # Page Config
@@ -68,7 +69,11 @@ def load_data():
     import re
 
     # Parse INSERT statements from SQL file
-    sql_text = open("../sql/restaurant_sales_analysis.sql", encoding="utf-8").read()
+    BASE_DIR = Path(__file__).resolve().parent.parent
+
+    sql_path = BASE_DIR / "sql" / "restaurant_sales_analysis.sql"
+
+    sql_text = open(sql_path, encoding="utf-8").read()
 
     pattern = re.compile(
         r"values\('(.+?)','(.+?)','(.+?)','(.+?)','(.+?)','(.+?)','(.+?)','(.+?)','(.+?)'\)",
